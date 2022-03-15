@@ -19,6 +19,10 @@ docker-compose exec demo-app poetry add sqlalchemy aiomysql
 - api モジュールの migrate_db スクリプトを実行する
 docker-compose exec demo-app poetry run python -m api.migrate_db
 
+docker-compose exec db mysql demo
+SHOW TABLES;
+DESCRIBE tasks;
+DESCRIBE dones;
 
 docker-compose ps
 docker-compose up -d
