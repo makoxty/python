@@ -6,6 +6,8 @@ https://zenn.dev/sh0nk/books/537bb028709ab9/viewer/281ee0
 他はEnter
 - docker-compose run --entrypoint "poetry install" demo-app
 
+docker-compose up -d
+
 - Swagger
 http://localhost:8000/docs
 
