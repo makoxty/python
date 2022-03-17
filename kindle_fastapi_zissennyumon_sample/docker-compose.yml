@@ -33,7 +33,7 @@ services:
     # path配下のDockerfile読み込み
     build: ./docker/api
     ports:
-      - "8001:8000"
+      - "8081:8000"
     volumes:
       - ./code:/usr/src/server
     networks:
