@@ -36,3 +36,10 @@ mysql -u root -p
 # MySQLにアクセス
 docker-compose exec db /bin/bash
 mysql -u user -h 127.0.0.1 -D sample_db -p
+
+# docker立ち上げから停止まで
+source fastapi-env/bin/activate
+docker-compose up -d
+http://localhost:8081
+docker-compose down
+deactivate

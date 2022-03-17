@@ -1,3 +1,6 @@
+# これは何のプロジェクト？
+.venvを使わないテンプレート
+
 # 参考サイト
 https://qiita.com/satto_sann/items/4fbc1a4e2b33fa2237d2
 
@@ -13,6 +16,7 @@ docker-compose exec db /bin/bash
 mysql -u user -h 127.0.0.1 -D sample_db -p
 
 # 一番最初の環境構築時だけ実施
+docker-compose build
 docker-compose exec db /bin/bash
 mysql -u root -p
 ⇨ password
