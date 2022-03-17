@@ -18,9 +18,6 @@ mysql -u root -p
 ⇨ password
 これでmysqlにアクセスできる
 
-## パスワード
-passwordのはずだが、認証失敗する
-
 curl -X GET "http://localhost:8001/users" -H "accept: application/json"
 
 # M1MacのDocker×MySQLの環境構築ではまるところ
