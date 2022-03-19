@@ -19,12 +19,11 @@ https://dbeaver.io/download/
 # docker立ち上げから停止まで
 source fastapi-env/bin/activate
 docker-compose up -d
-make dev
+make start
 http://localhost:8081
 deactivate
 docker-compose down
 
 pipコマンドはpip3
 
-参考書
-45
+63
