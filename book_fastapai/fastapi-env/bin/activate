@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/Users/fukujuumakoto/workspace/python/kindle_fastapi_zissennyumon/fastapi-env"
+VIRTUAL_ENV="/Users/fukujuumakoto/workspace/python/book_fastapai/fastapi-env"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
